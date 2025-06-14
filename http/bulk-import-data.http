@@ -1,0 +1,4 @@
+POST http://localhost:3000/api/bulk-import-data
+Content-Type: application/octet-stream
+
+< C:\Users\Vincent\Downloads\RUES.XLSx

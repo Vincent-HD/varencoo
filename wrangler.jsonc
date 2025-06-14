@@ -1,0 +1,23 @@
+{
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "varencoo",
+    "main": ".output/server/index.mjs",
+    "compatibility_date": "2025-04-10",
+    "compatibility_flags": [
+        "nodejs_compat"
+    ],
+    "assets": {
+        "directory": ".output/public"
+    },
+    "observability": {
+        "enabled": true
+    },
+    "d1_databases": [
+        {
+            "binding": "DB",
+            "database_name": "varencoo-db",
+            "database_id": "55bb4f31-79e1-4755-ac72-e6e3b7761595",
+            "migrations_dir": "src/migrations"
+        }
+    ]
+}
